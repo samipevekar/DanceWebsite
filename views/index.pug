@@ -1,0 +1,70 @@
+doctype html
+html 
+    head 
+        title Sami Dance Academy
+        style 
+            include style.css 
+    body 
+        nav#navbar 
+            ul
+                div#logo
+                    img(src="https://cdn.pixabay.com/photo/2018/04/13/10/54/silhouette-3316203_1280.png")
+                    | SDA
+                    
+                li #[a(href="/") Home ]
+                li #[a(href="/") About ]
+                li #[a(href="/") Services ]
+                li #[a(href="/") Class info]
+                li #[a(href="/") Contact us ]
+        
+        section#introSection
+            | Welcome to Sami's Dance Academy 
+            p.small
+                | Eat Sleep Dance Repeat
+
+        section#missionSection 
+            h2 Our Mission
+            div.card 
+                h3  Dance perfection
+                div.card-box
+                    div.card-img
+                        img(src="https://cdn.pixabay.com/photo/2018/01/20/17/40/silhouette-3095042_1280.png")
+
+                    div.card-content
+                        p This is the best dance academy of the universe
+
+            div.card 
+                h3  Dance the way you like
+                div.card-box
+                    div.card-img
+                        img(src="https://cdn.pixabay.com/photo/2018/01/18/11/47/silhouette-3090101_1280.png")
+
+                    div.card-content
+                        p This is the best dance academy of the universe
+
+            div.card 
+                h3  Expert teaching
+                div.card-box
+                    div.card-img
+                        img(src="https://cdn.pixabay.com/photo/2017/06/27/09/17/keywords-2446792_1280.png")
+
+                    div.card-content
+                        p This is the best dance academy of the universe
+
+
+        section#sponsorSection 
+            h2 Our Sponsor
+            div#sponsors 
+                img(src="https://cdn.pixabay.com/photo/2017/01/11/08/31/icon-1971130_1280.png" class="spImage")
+                img(src="https://cdn.pixabay.com/photo/2013/02/12/09/07/microsoft-80658_1280.png" class="spImage")
+                img(src="https://cdn.pixabay.com/photo/2015/12/11/11/43/google-1088004_1280.png" class="spImage")
+                img(src="https://cdn.pixabay.com/photo/2015/04/13/17/45/icon-720944_1280.png" class="spImage")
+
+        footer#footer 
+            | Copyright &copy 2023 samidanceacademy.com all right reserved
+
+
+
+
+        script  
+            include script.js

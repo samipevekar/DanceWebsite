@@ -1,0 +1,160 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&family=Bree+Serif&family=Roboto:wght@300&family=Roboto:wght@100;300;400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&family=Bree+Serif&family=Roboto+Slab:wght@300&family=Roboto:wght@100;300;400&family=Tilt+Neon&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&family=Bree+Serif&family=Poppins:wght@400;500&family=Roboto+Slab:wght@300&family=Roboto:wght@100;300;400&family=Tilt+Neon&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#navbar{
+    background-color: rgb(199, 41, 41);
+    padding: 13px 14px;
+    font-family: 'Baloo Bhaina 2', sans-serif;
+    
+
+}
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px;
+}
+#logo img{
+    height: 42px;
+    filter: invert(1);
+}
+#navbar ul{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+
+}
+#navbar li{
+    list-style: none;
+}
+#navbar li a{
+    text-decoration: none;
+    padding: 13px 30px;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: all .3s;
+    
+}
+#navbar li a:hover{
+    color: black;
+}
+
+
+#introSection{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(https://cdn.pixabay.com/photo/2018/02/22/23/06/ballet-3174227_1280.jpg)no-repeat center center /cover;
+    
+    font-family: 'Tilt Neon', sans-serif;
+    font-size: 2.6rem;
+    white-space: pre-line;
+    text-align: center;
+    padding-bottom: 200px;
+}
+#introSection .small{
+    font-size: 1.4rem;
+}
+
+#missionSection{
+    height: 100vh;
+
+}
+#missionSection h2{
+    text-align: center;
+    padding-top: 23px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+
+
+}
+
+.card{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    margin: 23px 20px;
+    height: 209px;
+    display: inline-block;
+    background-color: rgb(243, 255, 255);
+    box-shadow: 1px 1px 10px black;
+}
+
+
+.card h3{
+    text-align: center;
+    margin:15px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card img{
+    height: 132px;
+    padding: 0 14px;
+    margin: 12px;
+    transition: all 1s;
+
+}
+.card img:hover{
+    transform: scale(1.1);
+}
+.card-content p{
+    font-size: 18px;
+    padding: 0px 10px;
+}
+#sponsorSection{
+    height:100vh;
+    background-color: rgb(255, 214, 214);
+} 
+#sponsorSection h2{
+    text-align: center;
+    padding-top: 23px;
+    font-family: 'Tilt Neon', sans-serif;
+    font-size: 2rem;
+    
+    font-family: 'Poppins', sans-serif;
+
+}
+.spImage{
+    height: 200px;
+    margin: 20px auto;
+    filter: drop-shadow(1px 1px 10px rgb(255, 162, 177));
+}
+#sponsors{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+}
+
+#footer{
+    height: 60px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
