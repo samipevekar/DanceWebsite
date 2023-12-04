@@ -21,7 +21,7 @@ const contact = mongoose.model('contact', contactSchema);
 
 
 const app=express()
-const port=80
+const port=90
 
 app.use(express.static('static'))   //for serving static files
 app.use(express.urlencoded())
